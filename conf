@@ -48,7 +48,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, 
 [policy]
 #闪电侠节点默认每一小时进行一次延迟检测，想更换检测时间的请修改check-interval参数。
 url-latency-benchmark=闪电侠, server-tag-regex=^(?!.*网易云), check-interval=3600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
-static=自选节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png
+#static=自选节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png
 static=World, 闪电侠, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static=Home, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/China.png
 #static=网易云音乐, 网易云解锁灰色, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netease.png
@@ -77,10 +77,10 @@ https://viplvke.com/api/v1/client/subscribe?token=cbd232a3cbd2b2e0e5ac456ddd12aa
 #解锁网易云灰色音乐原订阅地址：https://git.io/JfNq3
 #https://qxnav.com/rules/QuantumultX/gz/wyy.list, tag=网易云解锁灰色, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png, update-interval=86400, opt-parser=false, enabled=false
 [filter_remote]
-https://gitee.com/padding/qxconf/raw/master/world.list, tag=World, enabled=true
-https://gitee.com/padding/qxconf/raw/master/home.list, tag=Home, enabled=true
-https://gitee.com/padding/qxconf/raw/master/ad.list, tag=屏蔽广告, update-interval=86400, opt-parser=false, enabled=true
-https://gitee.com/padding/qxconf/raw/master/youtube.list, tag=YouTube, enabled=true
+https://raw.githubusercontent.com/yuyedaidao/qxconf/master/world.list, tag=World, enabled=true
+https://raw.githubusercontent.com/yuyedaidao/qxconf/master/home.list, tag=Home, enabled=true
+https://raw.githubusercontent.com/yuyedaidao/qxconf/master/ad.list, tag=屏蔽广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/yuyedaidao/qxconf/master/youtube.list, tag=YouTube, enabled=true
 
 [filter_local]
 # 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)
