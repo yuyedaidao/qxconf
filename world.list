@@ -13,7 +13,6 @@ HOST-SUFFIX,servers.xeton.dev,World
 IP-CIDR,38.94.111.242/32,World
 IP-CIDR,38.94.111.242/22,World
 
-
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,World
 USER-AGENT,AwemeI18n*,World
